@@ -1,78 +1,53 @@
 # calc
-1. Clone the Repository
-Cloning creates a local copy of a GitHub repository on your machine. Here’s how to do it:
+# Calculator Project
 
-Copy the Repository URL:
+A simple web-based calculator built with HTML, CSS (Bootstrap), and JavaScript.
 
-Go to the GitHub repository page (e.g., https://github.com/roshan1520/calc.git).
-Click the green Code button and copy the HTTPS URL.
-Run the Clone Command:
+## Features
 
-Open a terminal or command prompt on your local machine.
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Clear, delete, and reset functionalities
+- Simple and responsive design with Bootstrap styling
 
-Run the following command, replacing the URL with the one you copied:
+## Getting Started
 
-bash
-Copy code
-git clone https://github.com/roshan1520/calc.git
-This will create a local copy of the repository in a folder named calc (or the repository name) in your current directory.
+Follow these instructions to set up the calculator project locally.
 
-Navigate to the Project Directory:
+### Prerequisites
 
-bash
-Copy code
-cd calc
-2. Install Project Dependencies (e.g., for Node.js Projects)
-If the project has dependencies (such as with Node.js projects), you’ll need to install them:
+Ensure you have Git installed. [Download Git](https://git-scm.com/).
 
-Install Dependencies:
+### Cloning the Repository
 
-In the project directory (e.g., calc), run:
+1. **Clone the repository** by running the following command:
 
-bash
-Copy code
-npm install
-This command reads the package.json file and installs all the necessary dependencies into a node_modules folder.
-
-3. Run or Build the Project
-After installing dependencies, you can run or build the project as specified in the repository’s documentation:
-
-Run the Project:
-
-If there’s a start script defined in package.json, you can use:
-
-bash
-Copy code
-npm start
-Build the Project:
-
-For projects with a build step, you may need to run:
-
-bash
-Copy code
-npm run build
-Check the repository’s README file for any additional setup instructions or commands.
-
-Quick Summary
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/roshan1520/calc.git
-Navigate to the project folder:
+   ```bash
+   git clone https://github.com/roshan1520/calc.git
+Navigate to the project directory:
 
 bash
 Copy code
 cd calc
-Install dependencies (for Node.js projects):
+Install dependencies (if applicable, e.g., for Bootstrap or other packages):
 
 bash
 Copy code
 npm install
-Run or build the project:
+Running the Calculator
+Since this is a front-end project, you can open the index.html file in your browser directly to view and use the calculator.
+
+Alternatively, if you have a local server (like Live Server in VS Code), you can use it to serve the project:
 
 bash
 Copy code
+# Using Live Server
 npm start
-# or
-npm run build
+Usage
+Basic Operations: Enter numbers and click the operation buttons to perform calculations.
+Clear: Clears the display.
+Delete: Removes the last character entered.
+Equal: Shows the result of the entered expression.
+Built With
+HTML5
+CSS3 (Bootstrap) for styling and layout
+JavaScript for calculator functionality

@@ -37,18 +37,10 @@ Ensure you have Git installed. [Download Git](https://git-scm.com/).
 Running the Calculator
 Since this is a front-end project, you can open the index.html file in your browser directly to view and use the calculator.
 
+
 Alternatively, if you have a local server (like Live Server in VS Code), you can use it to serve the project:
 
-bash
-Copy code
-# Using Live Server
-npm start
-Usage
-Basic Operations: Enter numbers and click the operation buttons to perform calculations.
-Clear: Clears the display.
-Delete: Removes the last character entered.
-Equal: Shows the result of the entered expression.
-Built With
-HTML5
-CSS3 (Bootstrap) for styling and layout
-JavaScript for calculator functionality
+   ```bash
+   # Using Live Server
+   npm start
+

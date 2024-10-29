@@ -23,16 +23,17 @@ Ensure you have Git installed. [Download Git](https://git-scm.com/).
 
    ```bash
    git clone https://github.com/roshan1520/calc.git
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 
-bash
-Copy code
-cd calc
-Install dependencies (if applicable, e.g., for Bootstrap or other packages):
+   ```bash
+   cd calc
 
-bash
-Copy code
-npm install
+
+3. **Install dependencies (if applicable, e.g., for Bootstrap or other packages):**
+
+   ```bash
+   npm install
+   
 Running the Calculator
 Since this is a front-end project, you can open the index.html file in your browser directly to view and use the calculator.
 
